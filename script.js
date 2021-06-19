@@ -1,6 +1,6 @@
 const DateTime = luxon.DateTime
 
-const releaseDate = DateTime.fromISO("2021-07-15T12:00:00+02:00")
+const releaseDate = DateTime.fromISO("2021-09-15T12:00:00+02:00")
 
 const monthEl = document.querySelector(".timer__value--month")
 const dayEl = document.querySelector(".timer__value--day")

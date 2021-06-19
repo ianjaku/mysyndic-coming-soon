@@ -134,6 +134,7 @@ body {
   color: #FCFCFC;
   font-size: 1.125rem;
   font-weight: 500;
+  font-family: "Rubik", sans-serif;
   padding: 20px;
   border-radius: 5px;
   border: none;
@@ -156,12 +157,17 @@ body {
   box-shadow: none;
   background-color: var(--accent);
   color: #413505;
+  font-family: "Rubik", sans-serif;
   font-weight: 500;
   font-size: 1.125rem;
   border-radius: 5px;
   letter-spacing: 0.02rem;
   margin-top: 10px;
   position: relative;
+  opacity: 0.8;
+}
+.email-input__submit:hover {
+  opacity: 1;
 }
 .email-input__submit--loading::after {
   content: ".";
@@ -209,6 +215,11 @@ body {
   .image {
     display: block;
   }
+}
+
+.image__img {
+  height: 100%;
+  max-height: 774px;
 }
 
 /* Footer */
